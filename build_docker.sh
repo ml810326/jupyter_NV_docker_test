@@ -1,5 +1,5 @@
 #!/bin/bash
 cd base-notebook
-sudo docker build -t viabase-notebook .
+sudo docker build -t base-notebook .
 cd ../tensorflow-notebook
-sudo docker build -t via-tensorflow .
+sudo docker build -t test-tensorflow .
